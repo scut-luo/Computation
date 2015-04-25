@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4EB3F08-F26D-4BBE-BE1D-DA0D0166F772}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gdiplus.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Calculus.cpp" />
+    <ClCompile Include="Character_Judgement.cpp" />
+    <ClCompile Include="Differential_Algorithm.cpp" />
+    <ClCompile Include="DrawGraph.cpp" />
+    <ClCompile Include="Equation.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Fitting_Algorithm.cpp" />
+    <ClCompile Include="Integral_Algorithm.cpp" />
+    <ClCompile Include="InterpolationAndFitting.cpp" />
+    <ClCompile Include="Interpolation_Algorithm.cpp" />
+    <ClCompile Include="Equation_Algorithm.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Matrix_Algorithm.cpp" />
+    <ClCompile Include="Matrix_Comp.cpp" />
+    <ClCompile Include="ODE.cpp" />
+    <ClCompile Include="ODE_Algorithm.cpp" />
+    <ClCompile Include="PCA.cpp" />
+    <ClCompile Include="PCA_Algorithm.cpp" />
+    <ClCompile Include="PCA_GRAPH.cpp" />
+    <ClCompile Include="PCA_NAMES.cpp" />
+    <ClCompile Include="TabCtrl.cpp" />
+    <ClCompile Include="Tab_Control_Page_1.cpp" />
+    <ClCompile Include="Tab_Control_Page_2.cpp" />
+    <ClCompile Include="TAB_CONTROL_PAGE_3.cpp" />
+    <ClCompile Include="TAB_CONTROL_PAGE_4.cpp" />
+    <ClCompile Include="TAB_CONTROL_PAGE_5.cpp" />
+    <ClCompile Include="TAB_CONTROL_PAGE_6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculus.h" />
+    <ClInclude Include="Chart.h" />
+    <ClInclude Include="Computation.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="equation.h" />
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="IAF.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="ODE.h" />
+    <ClInclude Include="PCA.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="COD128.ico" />
+    <None Include="fx.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

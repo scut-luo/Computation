@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\TabControlPage">
+      <UniqueIdentifier>{af5893c4-e63b-46e7-a064-ffd79992d3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类">
+      <UniqueIdentifier>{f2b7526e-f399-43b2-81f9-d24645b5ee00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类\算法">
+      <UniqueIdentifier>{146d6761-1b1e-4818-9e49-95c0a15b5715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\File">
+      <UniqueIdentifier>{12290d68-2d8f-40bd-a069-e18007244127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PCA">
+      <UniqueIdentifier>{79e78220-1af0-4ce1-882b-805034629e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ID">
+      <UniqueIdentifier>{49173925-252f-4141-bbfe-032931e285e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_Control_Page_1.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="TabCtrl.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="TAB_CONTROL_PAGE_3.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_Judgement.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpolationAndFitting.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Comp.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="TAB_CONTROL_PAGE_5.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="ODE_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="ODE.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>源文件\File</Filter>
+    </ClCompile>
+    <ClCompile Include="TAB_CONTROL_PAGE_4.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculus.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="Differential_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="Integral_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitting_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="TAB_CONTROL_PAGE_6.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="PCA.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+    <ClCompile Include="PCA_Algorithm.cpp">
+      <Filter>源文件\类\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="PCA_NAMES.cpp">
+      <Filter>源文件\PCA</Filter>
+    </ClCompile>
+    <ClCompile Include="PCA_GRAPH.cpp">
+      <Filter>源文件\PCA</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_Control_Page_2.cpp">
+      <Filter>源文件\TabControlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGraph.cpp">
+      <Filter>源文件\类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Computation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IAF.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculus.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="equation.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="PCA.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="ODE.h">
+      <Filter>头文件\ID</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="COD128.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="fx.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
